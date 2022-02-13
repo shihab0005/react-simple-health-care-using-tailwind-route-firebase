@@ -1,0 +1,15 @@
+.about_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+   
+}
+.image img{
+    width: 750px;
+    margin-left: 20px;
+}

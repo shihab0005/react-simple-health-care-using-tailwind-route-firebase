@@ -1,0 +1,33 @@
+.footer_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(197, 197, 194);
+    margin-top: 20px;
+   
+
+}
+.imp_link{
+    padding: 10px;
+}
+.icons{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 15px ;
+}
+.fab{
+    font-size: 30px;
+}
+.subscribe{
+    padding: 10px;
+    margin-top: 30px;
+}
+.payment{
+    padding-right: 20px;
+    margin-top: 20px;
+}
+.payment_icons{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 10px;
+}
