@@ -20,6 +20,9 @@ const Doctor = ({ doctor }) => {
                 </div>
 
             </div>
+            <NavLink to={`/bookAppointment`} >
+                <button className='border-1 rounded-lg  text-lg font-mono font-bold  p-2 mr-2  align-text-bottom bg-orange-400 text-slate-100'>Book Appointment</button>
+            </NavLink>
             <NavLink to={`/doctorDetails/${id}`} >
                 <button className='border-1 rounded-lg  text-lg font-mono font-bold  p-2  align-text-bottom bg-orange-400 text-slate-100'>View Profile</button>
             </NavLink>

@@ -7,7 +7,7 @@ const DoctorDetails = () => {
     const [singleDoctor, setSingleDoctor] = useState({});
 
     useEffect(() => {
-        fetch('http://localhost:3000/doctorDetailsInfo.json')
+        fetch('https://mighty-bayou-60026.herokuapp.com/doctorsInfo')
             .then(res => res.json())
             .then(data => setDoctorDetails(data))
 

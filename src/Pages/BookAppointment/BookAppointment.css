@@ -1,0 +1,15 @@
+.form_container form{
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: center;
+    align-items: center;
+
+}
+.form_container form input{
+    width: 50%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+   
+}

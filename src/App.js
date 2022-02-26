@@ -16,6 +16,7 @@ import AuthProvider from './Pages/Context/AuthProvider';
 import BookAppointment from './Pages/BookAppointment/BookAppointment';
 import PrivateRoute from './Pages/PrivateRoute/PrivateRoute';
 import BookAmbulance from './Pages/BookAmbulance/BookAmbulance';
+import Profile from './Pages/Profile/Profile';
 
 
 
@@ -53,6 +54,9 @@ function App() {
             </PrivateRoute>
             <PrivateRoute path='/bookAmbulance'>
               <BookAmbulance></BookAmbulance>
+            </PrivateRoute>
+            <PrivateRoute path='/profile'>
+              <Profile></Profile>
             </PrivateRoute>
             <Route path='/login'>
               <Login></Login>

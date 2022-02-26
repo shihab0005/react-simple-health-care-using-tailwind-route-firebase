@@ -35,6 +35,12 @@ const Header = () => {
                                 </NavLink>}
                         {user?.email && <span className='font-mono text-lg text-white mr-5 p-3 '>Hello,{user.displayName || user.email}</span>}
 
+                        {
+                            user.email ? <NavLink to='/profile'>
+                                <li className='mr-5 p-3 hover:bg-slate-500 text-white rounded-md cursor-pointer font-mono'>Appointment Details</li>
+                            </NavLink> : ""
+                        }
+
                     </ul>
 
                 </nav>
